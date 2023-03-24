@@ -1,0 +1,56 @@
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.service-offerings {
+  margin-top: 50px;
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+.service-offerings i.fa {
+  font-size: 55px;
+  transition: all 0.5s ease-in-out;
+}
+
+li {
+  list-style: none;
+  font-size: 18px;
+}
+
+.service-details {
+  padding: 10px 0;
+  border-radius: 3px;
+}
+
+.services-list {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.service-category {
+  margin-bottom: 100px;
+  transition: all 0.5s ease-in-out;
+}
+.service-category:hover .services-list {
+  height: 280px;
+  margin-bottom: 0;
+}
+.service-category:hover i.fa {
+  font-size: 80px;
+}
+
+.service-details {
+  background-color: #a7dbd8;
+  padding: 80px;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */
